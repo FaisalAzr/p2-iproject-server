@@ -125,6 +125,4 @@ app.use((error, req, res, next) => {
   });
 });
 
-app.listen(port, () => {
-  console.log(`run on port ${port}`);
-});
+module.exports = app;
